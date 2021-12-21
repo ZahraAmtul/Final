@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <title>DNA LAB PAKISTAN</title>
+
+    <link rel="stylesheet" href="/css/landing.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+</head>
+
+<body>
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+            <img src="/assets/icon.png" alt="" width="30" height="30" class="d-inline-block "
+                style="margin-left: 0px!important;">
+            <a class="navbar-brand center" href="https://dnalabpakistan.com/ " style="text-align:center;">
+                DNA LAB PAKISTAN
+            </a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <ul class="nav justify-content-center">
+        <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">DNA TEST LIST</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">OUR SERVICES</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">ABOUT US</a>
+        </li>
+        <li><button class="btn btn-outline1 btn-sm" type="submit">ORDER NOW</button></li>
+    </ul>
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/2400x900/?lab" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="" style="font-size: 40px; text-shadow: 2px 2px 2px #3E4A5B;">Ranked as No. 1 DNA LAB in Pakistan
+                    </h5>
+                    <p style="font-size: 25px; color: #025468; font-weight: 600;  text-shadow: 0px 2px 2px #444444;">One
+                        place solution for your experiments</p>
+                    <button type="button" id="explorebtn" class="btn btn-lg ">EXPLORE</button>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/2400x900/?paternity" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size: 40px; text-shadow: 2px 2px 2px #3E4A5B;">Ranked as No. 1 DNA LAB in Pakistan
+                    </h5>
+                    <p style="font-size: 25px; color: #025468; font-weight: 600;  text-shadow: 2px 2px 2px #444444;">Lab
+                        products with long lasting impression</p>
+                    <button type="button" id="explorebtn" class="btn btn-lg">EXPLORE</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/2400x900/?lab,hospital" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size: 40px; text-shadow: 2px 2px 2px #3E4A5B;">Ranked as No. 1 DNA LAB in Pakistan
+                    </h5>
+                    <p style="font-size: 25px; color: #025468; font-weight: 600;  text-shadow: 2px 2px 2px #444444;">We
+                        are passionate to meet your needs </p>
+                    <button type="button" id="explorebtn" class="btn btn-lg">EXPLORE</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> -->
+    </div>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-3" style="background-color:  #dbeceb;">
+                <h6 class="mt-5 font"> --- Order a DNA Test</h6>
+                <h1 class="mt-2 font1"> Our Range of Confidential
+                    Services
+                </h1>
+            </div>
+            <div class="col-9" style="background-color:  #c0eeea;">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container justify-content-center">
+                            <img src="/assets/5326046.jpg" class="rounded-circle mt-5 center img-fluid test"
+                                alt="Cinque Terre" height="150" width="300">
+                            <h6 class="mt-3 center text">Legal Immigration DNA Test</h6>
+                            <button class="btn btn-primary btn-sm center mb-3 price" type="submit">From
+                                Rs.90,000.00</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container justify-content-center">
+                            <img src="/assets/7.png" class="rounded-circle mt-5 center img-fluid test"
+                                alt="Cinque Terre">
+                            <h6 class="mt-3 center text">Paternity DNA Test Father to Child (Duo)
+                            </h6>
+                            <button class="btn btn-primary btn-sm center mb-3 price" type="submit">From
+                                Rs.45,000.00</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container justify-content-center">
+                            <img src="/assets/7.png" class="rounded-circle mt-5 center img-fluid test"
+                                alt="Cinque Terre">
+                            <h6 class="mt-3 center text">Paternity DNA Test Father to Child (Duo)
+                            </h6>
+                            <button class="btn btn-primary btn-sm center mb-3 price" type="submit">From
+                                Rs.45,000.00</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container justify-content-center">
+                            <img src="/assets/5326046.jpg" class="rounded-circle mt-5 center img-fluid test"
+                                alt="Cinque Terre" height="150" width="300">
+                            <h6 class="mt-3 center text">Legal Immigration DNA Test</h6>
+                            <button class="btn btn-primary btn-sm center mb-3 price" type="submit">From
+                                Rs.90,000.00</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container justify-content-center">
+                            <img src="/assets/7.png" class="rounded-circle mt-5 center img-fluid test"
+                                alt="Cinque Terre">
+                            <h6 class="mt-3 center text">Paternity DNA Test Father to Child (Duo)
+                            </h6>
+                            <button class="btn btn-primary btn-sm center mb-3 price" type="submit">From
+                                Rs.45,000.00</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container justify-content-center">
+                            <img src="/assets/7.png" class="rounded-circle mt-5 center img-fluid test"
+                                alt="Cinque Terre">
+                            <h6 class="mt-3 center text">Paternity DNA Test Father to Child (Duo)
+                            </h6>
+                            <button class="btn btn-primary btn-sm center mb-3 price" type="submit">From
+                                Rs.45,000.00</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="https://wa.me/923074561958" class="whatsapp_float" target="_blank"> <i
+            class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 bot">
+                <img src="/assets/design.png" class="mt-5 py-5 img-fluid" alt="Cinque Terre">
+            </div>
+            <div class="col-6 mt-5 bot">
+                <h6 class="mt-5" style="color: #025468; font-size: 1vw; font-weight: 700;">DNA Testing Facility ---</h6>
+                <h3 class="" style="color: rgb(54, 53, 53); font-size: 2vw;">Why Choose DNA LAB Pakistan</h3>
+                <ul class="no_bullet mt-3">
+                    <li class="leaf">Providing fast, satisfactory and accurate DNA test services at most affordable
+                        prices in Pakistan.</li>
+                    <li class="leaf">Testing kits can be delivered to anywhere in UK, USA, Germany, Spain, Australia,
+                        Canada and Worldwide.</li>
+                    <li class="leaf">Our in-house laboratory enables us to offer a fast turn around time and affordable
+                        testing for our clients.</li>
+                    <li class="leaf">Our laboratory scientists handle your case and communicate with you throughout the
+                        entire process.</li>
+                    <li class="leaf">Our client’s personal data and samples are handled with the utmost confidentiality
+                        and security throughout the entire process.</li>
+                    <li class="leaf"> We have a broad portfolio of tests including DNA paternity testing, maternity
+                        testing, sibling testing,dead body identifications,
+                        organ transplant DNA testing and DNA profiling.</li>
+                    <li class="leaf">If you are looking for a trusted and Certified DNA Laboratory that offers reliable
+                        DNA Testing Services.</li>
+                    <li class="leaf">DNA LAB PAKISTAN holds accreditation from the National Association of Testing
+                        Authorities
+                        (NATA).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5" style="background-color: #dbeceb">
+        <h6 class="text-center top" style="color: #025468; font-family: 'Ubuntu Mono', monospace; font-weight: 600;">---
+            Easy Step Guide For DNA Testing ---
+        </h6>
+        <h1 class="text-center mb-5 top" style="color: rgb(54, 53, 53);">How it Works
+        </h1>
+        <div class="row lef">
+            <div class="col">
+                <img class="work" src="/assets/1.png" alt="">
+                <h6 style="text-align: center; font-size: small;">Select your test </h6>
+            </div>
+            <div class="col">
+                <img class="work" src="/assets/2.png" alt="">
+                <h6 style="text-align: center; font-size: small;">Complete one
+                    page order form</h6>
+            </div>
+            <div class="col">
+                <img class="work" src="/assets/3.png" alt="">
+                <h6 style="text-align: center; font-size: small;">Receive testing kit
+                    from DNA Lab Pakistan</h6>
+            </div>
+            <div class="col">
+                <img class="work" src="/assets/4.png" alt="">
+                <h6 style="text-align: center; font-size: small;"> DNA LAB Pakistan receives sample
+                    for DNA testing</h6>
+            </div>
+            <div class="col">
+                <img src="/assets/5.png" alt="">
+                <h6 style="text-align: center; font-size: small;">DNA LAB Pakistan Completes
+                    requested DNA testing</h6>
+            </div>
+            <div class="col">
+                <img src="/assets/6.png" alt="">
+                <h6 style="text-align: center; font-size: small;">Results emailed in
+                    5 working days</h6>
+            </div>
+        </div>
+        <button class="btn btn-outline btn-sm center mt-5 bot" type="submit">ORDER NOW</button>
+    </div>
+
+    <section id="testimonial">
+        <div class="container mt-5 py-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h6 class="text-center top" style="color: #025468; font-family: 'Ubuntu Mono', monospace; font-weight: 600;">---
+                            Trusted DNA Testing Specialists ---
+                        </h6>
+                        <h4 class="text-center mb-5 top" style="color: rgb(54, 53, 53); font-size: 30px">What our customers have to say
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Slide Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                            <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <div class="carousel-content">
+                                    <!-- <div class="client-img"><img src="images/user-img-1.jpg" alt="Testimonial Slider" /></div> -->
+                                    <p><i>We wanted to pass on our big thanks for all that you’ve done to expedite our DNA testing. A pleasure to work with you and we’ll be sure to recommend your services to the upcoming couples also coming to Kiev for surrogacy after us.</i></p>
+                                    <h3><span>-</span> Junaid Iqbal <span>-</span></h3>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <div class="carousel-content">
+                                    <!-- <div class="client-img"><img src="images/user-img-2.jpg" alt="Testimonial Slider" /></div> -->
+                                    <p><i>My thanks to DNA LAB PAKISTAN for confirming I am the father of my children. It has given me peace of mind so I can move along with my life.</i></p>
+                                    <h3><span>-</span> Talal Haider <span>-</span></h3>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="carousel-item">
+                                <div class="carousel-content">
+                                    <!-- <div class="client-img"><img src="images/user-img-3.jpg" alt="Testimonial Slider" /></div> -->
+                                    <p><i>The all around time I waited for the test to come back was absolutely great and so precise. The pricing is very cheap for the fact that my daughter will grow up with her father by her side which is priceless.</i></p>
+                                    <h3><span>-</span> Farzana Baig <span>-</span></h3>
+                                </div>
+                            </div>
+                            <!-- Slider pre and next arrow -->
+                            <a class="carousel-control-prev text-black" href="#testimonialCarousel" role="button" data-slide="prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a class="carousel-control-next text-black" href="#testimonialCarousel" role="button" data-slide="next">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="text-center mb-5 mt-5 bot" style="font-size: 30px; color: rgb(54, 53, 53); font-weight: 600;">WORLDWIDE ACCREDITED DNA LAB
+    </h2>
+    <p id="para" class="mx-5 bot">DNA Labs Pakistan delivers High Quality DNA Testing Services tailored to your needs. We
+        are
+        specialized testing provider for Paternity DNA Testing in Pakistan. We compare and select the most appropriate
+        DNA test with highest success rate at affordable cost at nearby your location.</p>
+
+    <img src="/assets/8.png" alt="" class="img-fluid center py-5 bot" width="1000">
+
+    <div class="fluid-container py-5 mt-5 px-3" style="background-color: #dbeceb">
+        <div class="row bot">
+            <div class="col-sm-3">
+                <div class="row">
+                    <h5 class="txt">Sample Collection Services</h5>
+                    <p class="tt">Free Home Sampling</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <h5 class="txt">Doctor Trusted Lab</h5>
+                    <p class="tt">Ranked Most Trusted DNA Lab</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <h5 class="txt">Sample Tested in USA</h5>
+                    <p class="tt">All Samples Processed in USA</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <h5 class="txt">100% Assured Quality</h5>
+                    <p class="tt">Only Lab to Perform 24 maker DNA Test</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-5" style="background-color: #444444">
+        <div class="row mx-3 bot">
+            <h5 id="head">DNA LAB PAKISTAN</h5>
+            <div id="end" class="col-2 my-3">
+                <h5>Collection Center</h5>
+                <ul class="nav nav1 flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Lahore</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Karachi</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Islamabad</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Multan</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Peshawar</a></li>
+                </ul>
+            </div>
+
+            <div id="end" class="col-2 my-3">
+                <h5>About Us</h5>
+                <ul class="nav nav1 flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">No. 1 DNA LAB in Pakistan</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Find How?</a></li>
+                </ul>
+            </div>
+
+            <div id="end" class="col-2 my-3">
+                <h5>Contact Us</h5>
+                <ul class="nav nav1 flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Phone 03074561958</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Email
+                            info@dnalabpakistan.com</a></li>
+
+                </ul>
+            </div>
+
+            <div id="end" class="col-4 offset-1 my-3">
+                <form>
+                    <h5>Email Us</h5>
+                    <p>For any query </p>
+                    <div class="d-flex w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Enter your email</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Enter your email">
+                        <button class="btn-outline2" type="button">
+
+                            <img src="assets/send.png" alt="..." width="20" height="20">
+                        </button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="end" class="d-flex justify-content-between py-4 border-top mx-3">
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.test', {
+            duration: 3000,
+            origin: 'left',
+            distance: '200px',
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('#explorebtn', {
+            duration: 3000,
+            delay: 2000,
+            origin: 'bottom',
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.font', {
+            duration: 3000,
+           
+            origin: 'left',
+            distance: '150px',
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.font1', {
+            duration: 3000,
+            origin: 'left',
+            distance: '150px',
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.bot', {
+            duration: 3000,
+            origin: 'bottom',
+            distance: '100px',
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.top', {
+            duration: 3000,
+            origin: 'top',
+            distance: '150px',
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.lef', {
+            duration: 3000,
+            delay:1000,
+            origin: 'left',
+            distance: '150px',
+        });
+    </script>
+    
+</body>
+
+</html>

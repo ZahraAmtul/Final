@@ -1,0 +1,93 @@
+.navbar-custom {
+    background-color: #E3F7FF;
+}
+
+.nav {
+    background-color: #61e9de;
+}
+.nav1{
+    background-color: #444444;
+
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text a {
+    color:  #025468;
+    /* font-weight: 600; */
+    font-size: 2vw;
+    font-family: 'Ubuntu Mono', monospace;
+    text-shadow: 0px 0px 3px #ababab;
+}
+.nav a {
+    color: #025468;
+    font-weight: 400;
+}
+ul.nav a:hover {
+    color: #FBB540 !important;
+}
+.btn-outline1 {
+    background-color: #FBB540;
+    color: #025468;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.btn-outline1:hover {
+    background-color: #E3F7FF;
+    color: #8a1d1d;
+    font-weight: 600;
+    font-size: 16px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.btn-outline {
+    background-color: #61e9de;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-outline:hover {
+    background-color: #FBB540;
+    color: #025468;
+    font-weight: 700;
+}
+.jumbotron {
+    background-image: url("/assets/service.png");
+    background-size: 1400px;
+    height: 400;
+ text-align: center;
+ color: #025468;
+ box-shadow: inset 5px 5px 9px #cccccc,
+             inset -5px -5px 9px #f4f4f4;
+             text-align: left;
+}
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #000000;
+}
+.last{
+    background-image: url("/assets/test.png");
+    background-size: 1400px;
+    height: 400;
+ text-align: center;
+ color: #ffffff;
+ box-shadow: inset 5px 5px 9px #0f272e,
+             inset -5px -5px 9px #10313a;
+}
+#head{
+    font-size: 30px;
+    color: #61e9de;
+}
+#end{
+    color: #61e9de;
+}
+#para{
+    font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
