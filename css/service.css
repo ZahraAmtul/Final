@@ -65,7 +65,7 @@ hr.style5 {
 	border-top: 2px dashed #000000;
 }
 .jumbotron {
-    background-image: url("/assets/service.png");
+    background-image: url("assets/service.png");
     background-size: 1400px;
     height: 400;
  text-align: center;
@@ -74,7 +74,7 @@ hr.style5 {
              inset -5px -5px 9px #f4f4f4;
 }
 .last{
-    background-image: url("/assets/test.png");
+    background-image: url("assets/test.png");
     background-size: 1400px;
     height: 400;
  text-align: center;

@@ -95,7 +95,7 @@ ul.no_bullet {
         margin: 0;
         }
 li.leaf {
-        background: url('/assets/tube.png') no-repeat left top;
+        background: url('assets/tube.png') no-repeat left top;
             height: 54px;
             padding-left: 44px;
             padding-top: 3px;
